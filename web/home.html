@@ -1,0 +1,107 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="home.css"/>
+
+<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    float:right;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<form action="Search" method="post">
+    <input type="text" name="bname" placeholder="Dhundo..">
+</form>
+<body style="background-color: whitesmoke">
+ <div class="dropdown">
+  <button class="dropbtn black"></button>
+  <%System.out.print("Hello")%>
+  <div class="dropdown-content">
+    <a href="UpdateDisp">Edit Profile</a>
+    <a href="Index.jsp">Log Out</a>
+  </div>
+</div>
+<center>
+<img title="BooStore" src="Images/logotest2.png" alt="BooStore" width="300" height="170" id="boo">
+</center><br>
+<div class="bgimg opacity-min">
+  <div class="display-middle" style="white-space:nowrap;">
+      <a class="bar-item button black" href="#menu" style="text-align:center" onclick="toggleFunction()" title="Click to go Menu">WELCOME</a>
+  </div>
+</div>
+<div class="content container padding-64" id="menu">
+  <h2 style="text-align: center"><p class="sansserif">MENU</p></h2>
+</div>
+<button3 style="align:center" type="submit" onclick="window.location.href='#'" class="submitbtn">NEWS FEED</button3>
+<button4 style="align:center" type="submit" onclick="window.location.href='#'" class="submitbtn">PROFILE</button4><br><br><br><br><br><br><br><br><br>
+<button5 style="align:center" type="submit" onclick="window.location.href='bupload.html'" class="submitbtn">UPLOAD BOOK</button5>
+<button6 style="align:center" type="submit" onclick="window.location.href='#'" class="submitbtn">FRIENDS</button6><br><br><br><br><br><br><br><br><br><hr>
+<footer class="center padding-64 opacity hover-opacity-off"><center>
+  <a href="#boo" class="button light-grey"><i class="fa fa-arrow-up margin-right"></i>To the top</a>
+  <div class="xlarge section">
+    <br><a href="#"><img class="hover-opacity" title="Facebook" src="Images/facebook.png" alt="Facebook" width="22" height="22"></a>
+    <a href="https://www.instagram.com/boostore247/?hl=en"><img class="hover-opacity" title="Instagram" src="Images/Instagram_logo.png" alt="Instagram" width="22" height="22"></a>
+  </div>
+  <p>BooStore 2017</p>
+  </center>
+</footer>
+<script>
+function toggleFunction() {
+    var x = document.getElementById("menu");
+    if (x.button1.indexOf("show") === -1) {
+        x.button1 += " show";
+    } else {
+        x.button1 = x.button1.replace(" show", "");
+    }
+}
+</script>
+</body>
+</html>

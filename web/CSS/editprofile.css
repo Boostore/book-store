@@ -1,0 +1,69 @@
+input[type=text], input[type=password], input[type=number], input[type=password], input[type=date], input[type=file] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type = submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 22px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 22px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.modal {
+    display: url("back1.jpg");
+    border-radius: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: white;
+    margin: 10% auto 15% auto;
+    border: 1px solid #888;
+    width: 60%;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 6px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 10%;
+}
+
+.container {
+    padding: 50px;
+}

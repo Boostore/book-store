@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/signup.css"/>
+    </head>
+    <body background="Images/homeback.jpg">
+        <div id="id01" class="modal">
+        <form class="modal-content" action="UploadBook" enctype="multipart/form-data" method="Post">
+     <h1 style="text-align: center"><p class="sansserif">Upload Book</p></h1>
+
+    <div class="container"> 
+      <label><b><p class="sansserif">Book Name</p></b></label>
+      <input type="text" placeholder="Book Name" name="bname" required><br>
+
+      
+      <label><b><p class="sansserif">Book Writer</p></b></label>
+      <input type="text" placeholder="Book Writer" name="bwrit" required>
+
+      <label><b><p class="sansserif">Book Price</p></b></label>
+      <input type="number" placeholder="Set Price" name="bpris" required>
+      
+      <label><b><p class="sansserif">Contact Number</p></b></label>
+      <input type="tel" placeholder="Contact" name="contact" required>
+      
+      <input type="checkbox" checked="checked"><b><p class="sansserif">Confirm Your Details</p></b>
+      <input type="submit" value="Submit"> <br><br>
+      <button1 type="submit" onclick="window.location.href='home1.jsp'" class="cancelbtn">Cancel</button1>
+    </div>
+</form>
+</div>
+</body>
+</html>
