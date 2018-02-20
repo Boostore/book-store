@@ -1,1 +1,1 @@
-# book-store
+# http://boostore.github.io
